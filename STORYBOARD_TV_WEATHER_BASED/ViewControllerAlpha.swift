@@ -8,7 +8,7 @@
 import UIKit
 import CoreLocation
 
-class ViewController: UIViewController{
+class ViewControllerAlpha: UIViewController{
     
     //Location Manager object
     
