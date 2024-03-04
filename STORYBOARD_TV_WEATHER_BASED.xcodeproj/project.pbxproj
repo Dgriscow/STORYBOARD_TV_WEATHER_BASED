@@ -21,6 +21,7 @@
 		231E1C662B8E4484000ACA6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		231E1C682B8E4485000ACA6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		231E1C6B2B8E4485000ACA6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23B8FED22B8E60A90000EDB1 /* STORYBOARD-TV-WEATHER-BASED-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "STORYBOARD-TV-WEATHER-BASED-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 		231E1C602B8E4484000ACA6F /* STORYBOARD_TV_WEATHER_BASED */ = {
 			isa = PBXGroup;
 			children = (
+				23B8FED22B8E60A90000EDB1 /* STORYBOARD-TV-WEATHER-BASED-Info.plist */,
 				231E1C612B8E4484000ACA6F /* AppDelegate.swift */,
 				231E1C632B8E4484000ACA6F /* ViewController.swift */,
 				231E1C652B8E4484000ACA6F /* Main.storyboard */,
@@ -284,9 +286,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = STORYBOARD_TV_WEATHER_BASED/STORYBOARD_TV_WEATHER_BASED.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "STORYBOARD-TV-WEATHER-BASED-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = STORYBOARD_TV_WEATHER_BASED;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow location to see local weather";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
@@ -308,9 +315,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = STORYBOARD_TV_WEATHER_BASED/STORYBOARD_TV_WEATHER_BASED.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "STORYBOARD-TV-WEATHER-BASED-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = STORYBOARD_TV_WEATHER_BASED;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow location to see local weather";
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
