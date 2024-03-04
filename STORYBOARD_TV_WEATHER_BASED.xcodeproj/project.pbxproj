@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231E1BCD2B966B44004EA391 /* SwiftUIView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E1BCC2B966B44004EA391 /* SwiftUIView1.swift */; };
 		231E1C622B8E4484000ACA6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E1C612B8E4484000ACA6F /* AppDelegate.swift */; };
+
 		231E1C642B8E4484000ACA6F /* ViewControllerAlpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E1C632B8E4484000ACA6F /* ViewControllerAlpha.swift */; };
 		231E1C672B8E4484000ACA6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231E1C652B8E4484000ACA6F /* Main.storyboard */; };
 		231E1C692B8E4485000ACA6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231E1C682B8E4485000ACA6F /* Assets.xcassets */; };
@@ -15,8 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		231E1BCC2B966B44004EA391 /* SwiftUIView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView1.swift; sourceTree = "<group>"; };
 		231E1C5E2B8E4484000ACA6F /* STORYBOARD_TV_WEATHER_BASED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STORYBOARD_TV_WEATHER_BASED.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		231E1C612B8E4484000ACA6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+
 		231E1C632B8E4484000ACA6F /* ViewControllerAlpha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAlpha.swift; sourceTree = "<group>"; };
 		231E1C662B8E4484000ACA6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		231E1C682B8E4485000ACA6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +42,7 @@
 		231E1C552B8E4484000ACA6F = {
 			isa = PBXGroup;
 			children = (
+				231E1BCC2B966B44004EA391 /* SwiftUIView1.swift */,
 				231E1C602B8E4484000ACA6F /* STORYBOARD_TV_WEATHER_BASED */,
 				231E1C5F2B8E4484000ACA6F /* Products */,
 			);
@@ -56,6 +61,7 @@
 			children = (
 				23B8FED22B8E60A90000EDB1 /* STORYBOARD-TV-WEATHER-BASED-Info.plist */,
 				231E1C612B8E4484000ACA6F /* AppDelegate.swift */,
+
 				231E1C632B8E4484000ACA6F /* ViewControllerAlpha.swift */,
 				231E1C652B8E4484000ACA6F /* Main.storyboard */,
 				231E1C682B8E4485000ACA6F /* Assets.xcassets */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
 				231E1C642B8E4484000ACA6F /* ViewControllerAlpha.swift in Sources */,
 				231E1C622B8E4484000ACA6F /* AppDelegate.swift in Sources */,
+				231E1BCD2B966B44004EA391 /* SwiftUIView1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
